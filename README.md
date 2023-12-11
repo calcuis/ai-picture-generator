@@ -32,4 +32,4 @@ Execute the Generation:
 
 Overall, this code loads a pre-trained generative model, generates a set of images using random noise as input, and visualizes the results in a 5x5 grid, saving the output as "5x5_samples.png".
 
-*For model training (machine learning part), please refer to [ai-picture-model-trainer](https://github.com/calcuis/ai-picture-model-trainer)
+*For training your own model(machine learning part), please refer to [ai-picture-model-trainer](https://github.com/calcuis/ai-picture-model-trainer)
