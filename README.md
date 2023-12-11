@@ -1,4 +1,4 @@
-# train-a-cryptopunk-generator-and-discriminator
+### train-a-cryptopunk-generator-and-discriminator
 
 unzip the images.zip
 
