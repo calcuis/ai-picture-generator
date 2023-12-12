@@ -8,7 +8,7 @@ Import Libraries:
 - `import matplotlib.pyplot as plt`: Imports the Matplotlib library for data visualization.
 
 Set Parameters:
-- `seed` = 42: Sets a seed for reproducibility.
+- `seed` = `random.getrandbits(32)`: Sets a random seed for reproducibility.
 - `n_images` = 25: Specifies the number of images to generate.
 - `codings_size` = 100: Defines the size of the random input noise vector for the generator.
 - `generator = tf.keras.models.load_model("./models/")`: Loads a pre-trained generative model using Keras.
