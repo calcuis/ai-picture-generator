@@ -1,7 +1,8 @@
 import tensorflow as tf
 import matplotlib.pyplot as plt
+import random
 
-seed = 42
+seed = random.getrandbits(32)
 n_images = 25
 codings_size = 100
 generator = tf.keras.models.load_model("./models/")
