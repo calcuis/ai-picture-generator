@@ -13,7 +13,6 @@ def generate(generator, seed):
 
     fig = plt.figure(figsize=(10, 10))
     for i in range(generated_images.shape[0]):
-        # plt.subplot(6, 6, i+1)
         plt.subplot(5, 5, i+1)
         plt.imshow(generated_images[i, :, :, :])
         plt.axis('off')
